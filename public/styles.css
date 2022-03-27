@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Garet Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Garet Book'), url('fonts/Garet-Book.woff') format('woff');
+    }
+
+ @font-face {
+   font-family: 'Garet Heavy';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Garet Heavy'), url('fonts/Garet-Heavy.woff') format('woff');
+        }
+
+@font-face {
+    font-family: 'Bimbo Sharpie';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Bimbo Sharpie'), url('fonts/Bimbo-Sharpie.ttf') format('truetype');
+            }
+
+body {
+    background-color: #f4f3eb;
+    text-align: center;
+}
+
+h1{
+    font-size: 7vw;
+    font-family: "Garet Heavy", sans-serif;
+    color: #1897ff;
+    text-shadow: 1px 0 1px #ff3aa5, -2px 0 1px #5ce1e6;
+}
+
+h2, h3 {
+    font-size: max(3.0vh, 16px);
+    font-family: "Garet Book", sans-serif;
+}
+
+/* General */
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.center-container {
+    margin: 10% 0 0;
+}
+
+.center-text{
+    line-height: 7em;
+    padding: 0 4%;
+}
+
+/* Navbar */
+.nav-brand {
+    font-family: 'Bimbo Sharpie', sans-serif;
+    font-size: 30px !important;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px !important;
+}
+
+.navbar {
+    background-color: rgba(166, 166, 166, 0.3);
+}
+
+/* Title Section */
+
+.title-center {
+    line-height: 7em;
+    width: 100%;
+    margin: 200px 0 auto;
+    z-index: 10;
+}
+
+.title-h1-size {
+    font-size: 10vw;
+}
+
+.title-h2-size {
+    font-size: 5vw;
+}
+
+.title-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+.yellow-corner {
+    width: 35%;
+    min-width: 400px;
+    height: auto;
+    z-index: -1
+}
+
+/* About */
+
+.profile-img {
+    width: 400px;
+    border-radius: 50%;
+    border: 25px solid #daf21b;
+}
+
+.pink-top {
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    z-index: -2;
+}
+
+.about-text {
+    line-height: 7em;
+    padding: 2% 5%;
+}
+
+/* Skills */
+.bg-yellow {
+    background-color: #ff3aa5!important;
+}
+
+.bg-pink {
+    background-color: #5ce1e6!important;
+}
+
+.progress-padding {
+    padding: 50px;
+}
+
+/* Projects */
+.project-container {
+    margin: 5% auto;
+}
+
+/* Contacts */
+.contact-container {
+    margin: 5% auto 0 auto;
+    padding: 0 10%;
+}
+
+.contact-form {
+    padding: 20px 15% 0 15%;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
+}
